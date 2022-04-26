@@ -12,3 +12,27 @@
 #logo{
     color: white !important;
 }
+
+// Home Container
+#home{
+    margin-top: 25px;
+}
+
+.jumbotron{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 425px;
+    
+}
+
+// Footer
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
