@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+<!-- Alert button dismissal not working. is it js error?     -->
