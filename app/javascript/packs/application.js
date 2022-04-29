@@ -11,6 +11,7 @@ require("./bootstrap")
 require("@popperjs/core")
 
 import "bootstrap"
+import 'app/javascript/packs/bootstrap/index.js'
 
 // Import the specific modules you may need (Modal, Alert, etc)
 import { Tooltip, Popover } from "bootstrap"
