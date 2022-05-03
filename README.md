@@ -24,3 +24,4 @@ Things you may want to cover:
 * ...
 
 <!-- Alert button dismissal not working. is it js error?     -->
+<!-- When doing user.articles << article in "one to many association" commit, Association type error is giving -->
