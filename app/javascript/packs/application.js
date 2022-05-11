@@ -3,15 +3,18 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
+
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("./bootstrap")
 require("@popperjs/core")
+require("jquery")
+require("rails_ujs")
 
-import "bootstrap"
-import 'app/javascript/packs/bootstrap/index.js'
+// import "bootstrap"
+// import 'app/javascript/packs/bootstrap/index.js'
 
 // Import the specific modules you may need (Modal, Alert, etc)
 import { Tooltip, Popover } from "bootstrap"
@@ -42,3 +45,4 @@ document.addEventListener("turbolinks:load", () => {
 // $(function () {
 //     $('[data-toggle="tooltip"]').tooltip()
 //   })
+
